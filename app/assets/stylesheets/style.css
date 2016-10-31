@@ -21,7 +21,7 @@
 	12.	Footer Style
 	13.	Offcanvas Menu Style
 	14.	Responsive Style
-	
+
 -------------------------------------------------------------------------*/
 
 
@@ -44,7 +44,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 /*-------------------------------------------------------------------------*/
 /*	2. Globally Applied Styles
 /*-------------------------------------------------------------------------*/
-body {font-size: 15px; max-width: 100%; font-weight: 500; background: #fff; font-smoothing: antialiased; -webkit-font-smoothing: antialiased; font-family: 'Raleway', sans-serif; line-height: 22px;}
+/*body {font-size: 15px; max-width: 100%; font-weight: 500; background: #fff; font-smoothing: antialiased; -webkit-font-smoothing: antialiased; font-family: 'Raleway', sans-serif; line-height: 22px;}*/
 input::-webkit-outer-spin-button, input::-webkit-inner-spin-button {-webkit-appearance: none; margin: 0;}
 @-webkit-viewport {width: device-width;}
 @-moz-viewport {width: device-width;}
@@ -62,8 +62,8 @@ body img {max-width: 100%;}
 .mp_none {margin: 0px !important; padding: 0px !important;}
 .page_divider {margin: 25px auto; display: inline-block; width: 100%; height: 1px;}
 
-#overview, #features_tab, #features, #screenshot, #team, #blog, #pricing, #testimonials, #newsletter {width: 100%; min-height: 50px; padding: 95px 0px 50px 0px; margin: 0px;}
-div.even_div {background: #f0f0f0;}
+#overview, #features_tab, #features, #screenshot, #team, #blog, #pricing, #testimonials, #newsletter {width: 100%; min-height: 50px; margin: 0px;}
+div.even_div {background: #fff;}
 .btn { border-radius: 7px; padding: 8px 36px; font-size: 15px; text-transform: uppercase; letter-spacing: 1px; font-weight: 500;}
 .btn_glob {background-color: #363636; color: #fff;}
 .btn_glob:hover {background-color: #676767; color: #fff;}
@@ -92,24 +92,24 @@ div.even_div {background: #f0f0f0;}
 /*-------------------------------------------------------------------------*/
 /*	3.	Header Style
 /*-------------------------------------------------------------------------*/
-#header {display: block; min-height: 965px; margin:0px; padding: 40px 0px; position: relative; background: url(../images/hslider_bg.png) no-repeat center center; -webkit-background-size: cover; background-size: cover;}
+#header {display: block; min-height: 965px; margin:0px; padding: 40px 0px; position: relative; background: url(https://www.invisionapp.com/assets/img/home/hero-super-fallback.jpg) no-repeat center center; -webkit-background-size: cover; background-size: cover;}
 #header .logo .text_logo {font-size: 30px; color: #fff; font-weight: 800;}
 #header .main_navigation {float: right; display: inline-block; line-height: 20px;}
 #header .main_navigation li {width: auto; float: left;}
 #header .main_navigation li a {color: #fff; font-weight: 500; font-size: 13px; letter-spacing: 1px; padding: 0px 7px; text-transform: uppercase; display: block; border-bottom: 2px solid transparent;}
-#header .main_navigation li a:before, 
+#header .main_navigation li a:before,
 #header .main_navigation li a:after {display: inline-block; opacity: 0; -webkit-transition: -webkit-transform 0.3s, opacity 0.2s; -moz-transition: -moz-transform 0.3s, opacity 0.2s; transition: transform 0.3s, opacity 0.2s;}
 #header .main_navigation li a:before {margin-right: 7px; content: '['; -webkit-transform: translateX(20px); -moz-transform: translateX(20px); transform: translateX(20px);}
 #header .main_navigation li a:after {margin-left: 7px; content: ']'; -webkit-transform: translateX(-20px); -moz-transform: translateX(-20px); transform: translateX(-20px);}
-#header .main_navigation li a:hover:before, #header .main_navigation li a:hover:after, #header .main_navigation li a:focus:before, 
+#header .main_navigation li a:hover:before, #header .main_navigation li a:hover:after, #header .main_navigation li a:focus:before,
 #header .main_navigation li a:focus:after {opacity: 1; -webkit-transform: translateX(0px); -moz-transform: translateX(0px); transform: translateX(0px);}
 #header .main_navigation li a:hover {color: #e7e7e7;}
 #header .header_content {display: block; padding: 170px 0px 0px 0px; width: 48%; margin: 0 auto; float: none; text-align: center;}
 #header .header_content h1 {display: inline-block; font-size: 50px; color: #e6e6e6; font-weight: 700; line-height: 75px; margin: 0px;}
 #header .header_content h1 span {font-size: 65px; color: #fff;}
 #header .header_content h4 {font-size: 18px; color: #e6e6e6; line-height: 35px; margin: 50px 0px 0px 0px;}
-#header .get_started_btn {width: 320px; height: 50px; margin: 90px auto 0px; padding: 15px 0px; color: #fff; font-size: 21px; font-weight: 600; background-color: #6daf50; display: block; border-radius: 40px;}
-#header .get_started_btn:hover {background-color: #79c359;}
+/*#header .get_started_btn {width: 320px; height: 50px; margin: 90px auto 0px; padding: 15px 0px; color: #fff; font-size: 21px; font-weight: 600; background-color: #6daf50; display: block; border-radius: 40px;}
+#header .get_started_btn:hover {background-color: #79c359;}*/
 #header .brand_slider_wrapp {position: relative; bottom: -200px;}
 #header .brand_slider {position: relative;}
 #header .brand_slider .thumb-wrapper img {margin: 0 auto;}
@@ -133,7 +133,7 @@ div.even_div {background: #f0f0f0;}
 #overview h3 {font-size: 25px; line-height: 25px; margin: 0px 0px 25px 0px; text-align: center;}
 #overview .overview_display_block p {width: 100%;}
 #overview .overview_display_block:hover .icon_box {border-color: #464646; transition: all ease 0.5s; -webkit-transition: all ease 0.5s;}
-#overview .overview_display_block:hover .icon_box, #overview .overview_display_block:hover .icon_box i, 
+#overview .overview_display_block:hover .icon_box, #overview .overview_display_block:hover .icon_box i,
 #overview .overview_display_block:hover h3, #overview .overview_display_block:hover p {color: #464646; transition: all ease 0.5s; -webkit-transition: all ease 0.5s;}
 
 /*-------------------------------------------------------------------------*/
@@ -162,7 +162,7 @@ div.even_div {background: #f0f0f0;}
 #main pre {white-space: pre-wrap; overflow: visible; border: 0;}
 #main .hljs {display: block; overflow-x: auto; padding: .5em; color: #333; background: #f8f8f8; -webkit-text-size-adjust: none;}
 #main .diff .hljs-header, #main .hljs-comment, #main .hljs-javadoc, #main .hljs-template_comment {color: #998; font-style: italic;}
-#main .css .rule .hljs-keyword, #main .hljs-keyword, #main .hljs-request, #main .hljs-status, #main .hljs-subst, #main .hljs-winutils, #main .javascript .hljs-title, 
+#main .css .rule .hljs-keyword, #main .hljs-keyword, #main .hljs-request, #main .hljs-status, #main .hljs-subst, #main .hljs-winutils, #main .javascript .hljs-title,
 #main .nginx .hljs-title {color: #333; font-weight: 700;}
 #main .hljs-hexcolor, #main .hljs-number, #main .ruby .hljs-constant {color: teal;}
 #main .hljs-dartdoc, #main .hljs-phpdoc, #main .hljs-string, #main .hljs-tag .hljs-value, #main .tex .hljs-formula {color: #d14;}
@@ -320,7 +320,7 @@ div.even_div {background: #f0f0f0;}
 #main .workflow #flow-boxes .text h3:before {content: ""; position: absolute; width: 150px; height: 1px; left: -166px; top: 9px; background: #c8c8c8;}
 
 @media screen and (max-width:640px) {
-	#main .workflow #flow-boxes .text h3:before {content: none;}	
+	#main .workflow #flow-boxes .text h3:before {content: none;}
 	#main .workflow #flow-boxes .text h3 {margin-top: 30px;}
 }
 
@@ -378,17 +378,18 @@ div.even_div {background: #f0f0f0;}
 /*	8.	Pricing Style
 /*-------------------------------------------------------------------------*/
 #pricing .package_wrapp {margin: 75px auto 0 auto; float: none;}
-#pricing .single_package {background: #fff; float: left; border: 1px solid #bababa; -webkit-transition: all ease-in 0.25s; transition: all ease-in 0.25s;}
-#pricing .single_package.active {background: #e5e5e5; border: 1px solid #e5e5e5; -webkit-transition: all ease-in 0.25s; transition: all ease-in 0.25s;}
-#pricing .package_headwrap {height: 55px; background-color: #606060;}
+#pricing .single_package {background: #dae3f0; float: left; border: 0px solid #bababa; -webkit-transition: all ease-in 0.25s; transition: all ease-in 0.25s;}
+#pricing .single_package.active {background: #dae3f0; border: 0px solid #e5e5e5; -webkit-transition: all ease-in 0.25s; transition: all ease-in 0.25s;}
+#pricing .package_headwrap {height: 55px; background-color: #3c4a62;}
 #pricing .package_headwrap h3 {font-size: 20px; line-height: 55px; color: #fff; text-align: center; text-transform: uppercase;}
-#pricing .single_package h4 {font-family: 'Roboto', sans-serif; font-size: 47px; line-height: 35px; color: #606060; text-align:center; text-transform: uppercase; font-weight: 500; margin: 40px 0px 20px;}
+#pricing .single_package h4 {font-family: 'Roboto', sans-serif; font-size: 47px; line-height: 35px; color: #fff; text-align:center; text-transform: uppercase; font-weight: 500;}
 #pricing .single_package h4 span {font-size: 17px; text-transform: capitalize; font-weight: 500;}
 #pricing .package_dis {width: 100%; padding: 0px 25px 50px; text-align: center;}
-#pricing .package_list {width: 100%; min-height: 435px; padding: 0px;}
-#pricing .package_list li {color: #8f8f8f; padding: 5px 5px 5px 35px; text-align: left; font-weight: 600; margin-bottom: 10px; line-height: 25px; background: url(../images/price_checked.png) no-repeat left 7px;}
-#pricing .single_package.active .btn_price {background-color: #363636; color: #fff; border-color: #363636;}
-#pricing .single_package.active .btn_price:hover {background-color: transparent; color: #363636; border-color: #363636;}
+#pricing .package_list {width: 100%; min-height: 300px; padding: 0px;}
+#pricing .package_list li {color: #555; padding: 5px 20px; text-align: left; font-weight: 600; margin-bottom: 10px;
+  line-height: 25px; background: url(../images/price_checked.png) no-repeat left 7px;}
+#pricing .single_package.active .btn_price {background-color: #f7211d; color: #fff; border-color: #f7211d;}
+#pricing .single_package.active .btn_price:hover {background-color: #f75a57; color: #fff; border-color: #f75a57;}
 #pricing .single_package a:hover, .single_package a:active, #pricing .single_package a:focus {color: #fff;}
 
 /*-------------------------------------------------------------------------*/
@@ -479,7 +480,7 @@ body.offcanvas .offcanvas_overlay {position: absolute; top: 0; left: 0; bottom: 
 	#header {min-height: 800px;}
 	#header .header_content {padding: 70px 0 0;}
 	#header .brand_slider_wrapp {bottom: -140px;}
-	#features .nav-tabs > li.active > a:before, #features .nav-tabs > li:hover > a:before {left: 137px;}	
+	#features .nav-tabs > li.active > a:before, #features .nav-tabs > li:hover > a:before {left: 137px;}
 }
 
 @media (max-width: 1024px) {
@@ -511,7 +512,7 @@ body.offcanvas .offcanvas_overlay {position: absolute; top: 0; left: 0; bottom: 
 	#header .brand_slider_wrapp {bottom: -185px;}
 	#overview, #features_tab, #features, #screenshot, #team, #blog, #pricing, #testimonials, #newsletter {padding: 55px 0 50px;}
 	#overview .overview_display_block {padding: 0 7px; height: 235px;}
-	#overview h3 {font-size: 20px; margin: 0 0 20px;}	
+	#overview h3 {font-size: 20px; margin: 0 0 20px;}
 	#features .tab-content > .tab-pane {min-height: 650px;}
 	#features .tabpanel_list li {background: rgba(0, 0, 0, 0) url("../images/price_checked.png") no-repeat scroll left 10px; margin-bottom: 15px;}
 	#features .tabpanel_txtblock .btn_glob {margin-top: 15px;}
@@ -539,12 +540,12 @@ body.offcanvas .offcanvas_overlay {position: absolute; top: 0; left: 0; bottom: 
 	#features .tabpanel_list li {line-height: 20px; background: rgba(0, 0, 0, 0) url("../images/price_checked.png") no-repeat scroll left 6px; margin-bottom: 7px;}
 	#features .nav-tabs > li > a {font-size: 13px; padding: 15px 10.2px 15px 11px;}
 	@media screen and (-webkit-min-device-pixel-ratio:0) {
-		#features .nav-tabs > li > a {font-size: 13px; padding: 15px 8.5px 15px 9px;}		
+		#features .nav-tabs > li > a {font-size: 13px; padding: 15px 8.5px 15px 9px;}
 	}
 	#features .tabpanel_txtblock p {margin: 0 0 30px;}
 	#testimonials .testimonials_slider_wrapp {margin: 40px auto 0; width: 100%;}
 	#testimonials .message {margin-bottom: 20px;}
-	#testimonials .client_name {margin: 20px 0 0;}	
+	#testimonials .client_name {margin: 20px 0 0;}
 	#testimonials .owl-item {margin-bottom: 20px;}
 	#pricing .container .col-md-4 {padding: 0px 15px 0px 15px;}
 	#pricing .single_package {width: 100%;}
@@ -572,7 +573,7 @@ body.offcanvas .offcanvas_overlay {position: absolute; top: 0; left: 0; bottom: 
 	#features .nav-tabs > li.active > a:before, #features .nav-tabs > li:hover > a:before {left: 57px;}
 	#features .nav-tabs > li > a {font-size: 12px; padding: 15px 9.2px 15px 10px;}
 	@media screen and (-webkit-min-device-pixel-ratio:0) {
-		#features .nav-tabs > li > a {font-size: 12px; padding: 15px 6.2px 15px 6px;}		
+		#features .nav-tabs > li > a {font-size: 12px; padding: 15px 6.2px 15px 6px;}
 	}
 	#newsletter input {width: 169px;}
 	#footer .coppyright {width: 69%;}
